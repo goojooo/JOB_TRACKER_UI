@@ -1,0 +1,84 @@
+.dashboard-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.dashboard-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.job-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.job-form input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.job-form button {
+  padding: 10px 15px;
+  background: #7c3aed;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.job-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.job-card {
+  padding: 15px;
+  border-radius: 10px;
+  background: #f9fafb;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.status {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.status.applied {
+  color: black;
+}
+
+.status.interview {
+  color: blue;
+}
+
+.status.offer {
+  color: green;
+}
+
+.status.rejected {
+  color: red;
+}
+
+.actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.actions button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.actions .delete {
+  background: red;
+  color: white;
+}
